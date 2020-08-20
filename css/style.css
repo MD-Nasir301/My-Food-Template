@@ -1,0 +1,213 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&display=swap');
+/* Default Css: */
+
+body {
+    font-family: 'Karma', serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #000000;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Karma', serif;
+    font-weight: normal;
+    line-height: 36px;
+    color: #000000;
+}
+h2 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a:hover {
+    text-decoration: none;
+}
+.px-9 {
+    padding: 0 9px;
+}
+.mx--10 {
+    margin: 0 -10px;
+}
+.pt-55 {
+    padding-top: 55px;
+}
+/* ------------------ */
+
+/* nav */
+.main-menu {
+    max-width: 1200px;
+    height: 68px;
+    margin: 0 auto;
+    background: #fff;
+}
+.toggle-nav-btn {
+    cursor: pointer;
+    padding: 23px 17px;
+}
+.toggle-nav-btn:hover {
+    background: #ccc;
+}
+.toggle-nav-btn span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #0000009d;
+    margin-bottom: 5px;
+}
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: -400px;
+    width: 28%;
+    background: rgb(255, 255, 255);
+    height: 100vh;
+    box-shadow: -1px -1px 9px 2px grey;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.side-menu-active {
+    left: 0;
+}
+.side-menu ul li a {
+    color: black;
+    padding: 25px 20px;
+    display: block;
+    font-size: 25px;
+}
+.side-menu ul li a:hover {  
+    background: #ccc;
+}
+/* food-area */
+#foods {
+    margin-top: 68px;
+}
+.food-name {
+    padding: 12px 0;
+}
+.single-food-item {
+    margin-bottom: 45px;
+}
+.pagination {
+    width: fit-content;
+    margin: 18px auto;
+}
+.pagination li a {
+    color: #000000;
+    padding: 9px 15px;
+    border: navajowhite;
+}
+.pagination li a:hover {
+    background: #000000;
+    color: #fff;
+}
+.pagination li a.active-page {
+    background: #000;
+    color: #fff;
+}
+/* about me */
+.about-me-content h4 {
+    font-size: 20px;
+}
+
+/* footer */
+.copy-right h2 {
+    margin-bottom: 15px;
+}
+.copy-right p {
+    line-height: 1.5;
+}
+ul.blogs-list li img {
+    margin-right: 15px;
+}
+ul.blogs-list li a {
+    display: block;
+    color: black;
+    padding: 18px;
+}
+ul.blogs-list li:not(:last-child){
+        border-bottom: 1px solid #ccc;
+}
+.blog-title {
+    font-size: 18px;
+}
+ul.blogs-list li a:hover {
+    background: #ccc;
+} 
+.tags span {
+    font-family: serif;
+    background: #616161;
+    color: #ffffff;
+    margin: 10px 0px;
+    padding: 0px 8px;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1.5;
+}
+#tag-highlight {
+    background: #000;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

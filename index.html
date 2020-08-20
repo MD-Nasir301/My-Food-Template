@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Food</title>
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font-Awesome Css -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- My Css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="fixed-top">
+            <div class="main-menu align-items-center d-flex justify-content-between">
+                <div class="toggle-nav-btn" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="side-menu">
+                    <ul>
+                        <li onclick="hideToggleMenu()"><a>Close Menu <span class="close">x</span></a></li>
+                        <li><a href="#foods">Food</a></li>
+                        <li><a href="#about-me">About</a></li>
+                    </ul>
+                </div>
+                <div class="logo">
+                    <h2>My Food</h2>
+                </div>
+                <div class="mail">
+                    <h2>Mail</h2>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="foods" class="pt-55">
+            <div class="container">
+                <div class="row mx--10">
+                    <div class="col-md-3 px-9">
+                        <div class="single-food-item text-center">
+                            <img class="img-fluid" src="img/sandwich.jpg" alt="">
+                            <h2 class="food-name">The Perfect Sandwich, A Real NYC Classic</h2>
+                            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 px-9">
+                        <div class="single-food-item text-center">
+                            <img class="img-fluid" src="img/steak.jpg" alt="">
+                            <h2 class="food-name">Let Me Tell You About This Steak</h2>
+                            <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt
+                                ipsum lipsum.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 px-9">
+                        <div class="single-food-item text-center">
+                            <img class="img-fluid" src="img/cherries.jpg" alt="">
+                            <h2 class="food-name">Cherries, interrupted</h2>
+                            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.
+                                <br> <br> What else?</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 px-9">
+                        <div class="single-food-item text-center">
+                            <img class="img-fluid" src="img/wine.jpg" alt="">
+                            <h2 class="food-name">Once Again, Robust Wine and Vegetable Pasta</h2>
+                            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 px-9">
+                        <div class="single-food-item text-center">
+                            <img class="img-fluid" src="img/popsicle.jpg" alt="">
+                            <h2 class="food-name">All I Need Is a Popsicle</h2>
+                            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 px-9">
+                        <div class="single-food-item text-center">
+                            <img class="img-fluid" src="img/salmon.jpg" alt="">
+                            <h2 class="food-name">Salmon For Your Skin</h2>
+                            <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt
+                                ipsum lipsum.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 px-9">
+                        <div class="single-food-item text-center">
+                            <img class="img-fluid" src="img/sandwich.jpg" alt="">
+                            <h2 class="food-name">The Perfect Sandwich, A Real Classic</h2>
+                            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 px-9">
+                        <div class="single-food-item text-center">
+                            <img class="img-fluid" src="img/croissant.jpg" alt="">
+                            <h2 class="food-name">Le French</h2>
+                            <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagination-area">
+                    <nav aria-label="Page navigation example" class=" mx-auto pb-4">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item "><a class="page-link active-page" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <hr>
+            </div>
+        </section>
+
+        <section id="about-me" class="pt-55">
+            <div class="container">
+                <h2 class="text-center mb-2">About Me, The Food Man</h2>
+                <br>
+                <img class="mx-auto d-block" src="img/chef.jpg" alt="">
+
+                <div class="about-me-content text-center py-5">
+                    <h4><b>I am Who I Am!</b></h4>
+                    <p class="font-italic">With Passion For Real, Good Food</p>
+                    <p class="about-me-text">Just me, myself and I, exploring the universe of unknownment. I have a
+                        heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my
+                        world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta
+                        lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut
+                        rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non
+                        fringilla.</p>
+                </div>
+                <hr>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pt-55 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="copy-right">
+                        <h2 class="text-uppercase">Footer</h2>
+                        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                        <p>Template Form <a target="_blank" href="https://www.w3schools.com/">w3 School</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="latest-blogs">
+                        <h2 class="text-uppercase mb-2">BLOG POSTS</h2>
+                        <ul class="blogs-list">
+                            <li>
+                                <a href="#">
+                                    <img class="float-left" src="img/gondol.jpg" width="50px" alt="">
+                                    <span class="blog-title">Lorem</span>
+                                    <br>
+                                    <span>Sed mattis nunc</span>
+                                </a>
+                            </li> 
+                            <li>
+                                <a href="#">
+                                    <img class="float-left" src="img/gondol.jpg" width="50px" alt="">
+                                    <span class="blog-title">Lorem</span>
+                                    <br>
+                                    <span>Sed mattis nunc</span>
+                                </a>
+                            </li> 
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h2 class="text-uppercase mb-2">Popular Tags</h2>
+                    <div class="tags">
+                                    
+                        <span id="tag-highlight">Travel</span>
+                        <span>New York </span>
+                        <span>Dinner</span>
+                        <span>Salmon</span>
+                        <span>France</span>
+                        <span>Drinks</span>
+                        <span>Ideas</span>
+                        <span>Flavors</span>
+                        <span>Cuisine</span>
+                        <span>Chicken</span>
+                        <span>Dressing</span>
+                        <span>Fried</span>
+                        <span>Fish</span>
+                        <span>Duck</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jquery & Bootstrap js file  -->
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popover.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <script> 
+        function toggleMenu (){
+            $('.side-menu').addClass('side-menu-active')
+        }
+        function hideToggleMenu (){
+            $('.side-menu').removeClass('side-menu-active')
+            
+        }
+    </script>
+</body>
+
+</html>
